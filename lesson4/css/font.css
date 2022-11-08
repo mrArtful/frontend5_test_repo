@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'my Font';
+    src: url('../fonts/BlackOpsOne-Regular.ttf');
+}
+p {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-style: italic;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: xx-large;
+    font-family: 'my Font', cursive;
+}
+h1 {
+    text-align: center;
+}
+.compass-image {
+    color: red;
+    font-size: 200px;
+    text-decoration: underline;
+}

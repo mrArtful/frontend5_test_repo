@@ -1,0 +1,35 @@
+.container {
+    color: dodgerblue;
+    text-align: justify;
+    text-align-last: right;
+}
+
+span {
+    vertical-align: super;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    /* text-decoration-line: line-through overline underline;
+    text-decoration-color: chartreuse;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px;
+    text-decoration: underline red double 3px;
+    text-transform: capitalize; */
+    text-indent: 40px;
+    letter-spacing: -1px;
+    line-height: 20px;
+    word-spacing: -1px;
+    white-space: nowrap;
+}
+    
+a {
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+    text-shadow: 0px 0px 2px deeppink, -2px -2px blue, 2px 2px orangered;
+}

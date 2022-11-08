@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* h1 {
+            width: 50%;
+            display: inline;
+        }
+        a {
+            display: block;
+        } */
+        /* .container {
+            margin: auto;
+            width: 50%;
+            background-color: aquamarine;
+        }
+        .namebadge {
+            width: 200px;
+            background-color: darkorange;
+            color: whitesmoke;
+            padding: 15px;
+            margin: 5px;
+            border: 2px solid black;
+        }
+        .director {
+            background-color: goldenrod;
+        }
+        #accountant {
+            background-color: dodgerblue;
+        } */
+
+    </style>
+</head>
+<body>
+    <!-- <h1>Heading1</h1>
+    <h1>Heading1</h1>
+    <h1>Heading1</h1>
+    <h1>Heading1</h1>
+    <a href="#">Google</a>
+    <a href="#">Google</a>
+    <a href="#">Google</a>
+    <a href="#">Google</a> -->
+    <!-- <div class="container">
+        <div class="namebadge director">
+            <h2>Jack Smith</h2>
+            <p>Company director</p>
+        </div>
+        <div class="namebadge" id="accountant">
+            <h2>Mary Gold</h2>
+            <p>Accountant</p>
+        </div>
+        <div class="namebadge">
+            <h2>Sarah Summer</h2>
+            <p>Programmer</p>
+        </div>
+        <div class="namebadge">
+            <h2>Bob Brown</h2>
+            <p>Programmer</p>
+        </div>
+    </div> -->
+    <form autocomplete="on">
+        <fieldset>
+            <legend>User info</legend>
+            <label for="user-name">User name: </label>
+            <input type="text" id="user-name" name="user-name" placeholder="User Name" list="names" autofocus><br>
+            <label for="user-email">User email: </label>
+            <input type="email" id="user-email" name="user-email" value="asdasd@asdasda.ee" readonly><br>
+            <label for="user-pass">Password: </label>
+            <input type="password" id="user-pass" name="user-pass" maxlength="10"><br>
+        </fieldset>
+        <label for="html">HTML</label>
+        <input type="radio" id="html" name="prog-lang" value="html" checked><br>
+        <label for="css">CSS</label>
+        <input type="radio" id="css" name="prog-lang" value="css"><br>
+        <label for="js">JavaScript</label>
+        <input type="radio" id="js" name="prog-lang" value="js"><br>
+
+        <label for="news">Newsletter?</label>
+        <input type="checkbox" id="news" name="news" value="true" required><br>
+
+        <select name="cars" id="cars" size="4" multiple>
+            <optgroup label="German cars">
+                <option value="bmw">BMW</option>
+                <option value="mb">Mercedes-Benz</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+            <optgroup label="Japanese cars">
+                <option value="honda">Honda</option>
+                <option value="toyota">Toyota</option>
+                <option value="subaru">Subaru</option>
+            </optgroup>
+        </select><br>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" style="resize: horizontal;"></textarea><br>
+        
+        <button type="button" onclick="alert('Hello World');">Alert me!</button><br>
+
+        <datalist id="names">
+            <option value="Roman">Roman</option>
+            <option value="Jack">Jack</option>
+            <option value="Taavi">Taavi</option>
+        </datalist>
+
+        <input type="color"><br>
+        <input type="date" max="2022-10-28"><br> <!-- YYYY-MM-DD -->
+        <input type="datetime-local"><br>
+        <input type="file"><br>
+        <input type="hidden" name="setting" value="true"><br>
+        <input type="image" src="http://picsum.photos/32/32"><br>
+        <input type="month" name="month"><br>
+        <input type="number" min="0" max="10" step="2"><br>
+        <input type="range" min="0" max="5"><br>
+        <input type="search"><br>
+        <input type="tel"><br>
+        <input type="url"><br>
+        <input type="time"><br>
+        <input type="week"><br>
+
+
+        <input type="submit" value="Click me">
+        <input type="reset" value="Clear" disabled>
+    </form>
+</body>
+</html>

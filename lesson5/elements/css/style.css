@@ -1,0 +1,70 @@
+.btn-subscribe {
+    display: inline-block;
+    border: 3px solid dodgerblue;
+    color: dodgerblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.btn-subscribe:hover {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.list-item {
+    background-color: slategray;
+    list-style-position: inside;
+    padding: 0;
+    list-style-image: url('https://img.icons8.com/ios-glyphs/2x/checked.png');
+}
+
+.list-item li:nth-child(odd) {
+    background-color: rosybrown;
+}
+
+.list-item li:nth-child(even) {
+    background-color: skyblue;
+}
+
+.drop-btn {
+    background-color: tomato;
+    color: white;
+    font-size: 32px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: tomato;
+    min-width: 200px;
+}
+
+.drop-content a {
+    background-color: tomato;
+    color: white;
+    font-size: 32px;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.drop-content a:hover {
+    background-color: salmon;
+}
+
+.dropdown:hover .drop-content {
+    display: block;
+}
+
+.dropdown:hover .drop-btn {
+    background-color: salmon;
+}

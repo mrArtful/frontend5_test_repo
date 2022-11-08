@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    float: right;
+}
+
+p {
+    border: 1px solid black;
+    overflow: auto;
+}
+
+div {
+    border: 1px solid black;
+    /* overflow: auto; */
+    padding: 15px;
+}
+div::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.one {
+    background-color: lightcoral;
+    padding: 10px;
+    float: right;
+    width: 33.3333%;
+}
+
+.two {
+    background-color: lightseagreen;
+    padding: 10px;
+    float: right;
+    width: 33.3333%;
+}
+
+.three {
+    background-color: lightskyblue;
+    padding: 10px;
+    clear: both;
+    /* float: right; */
+    width: 33.3333%;
+}

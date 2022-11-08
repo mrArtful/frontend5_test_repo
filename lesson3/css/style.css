@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+/* html, body {
+    background-color: black;
+    color: red;
+}
+
+h1 {
+    color: red;
+}
+
+h1.title {
+    color: blue;
+} */
+
+/* h1, p, a {
+    color: red;
+} */
+
+/* a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: blue;
+} */
+
+/* a {
+    color: red;
+}
+
+a:hover {
+    color: pink;
+} */
+
+
+/* ALL CHILDREN */
+/* div p {
+    color: red;
+}
+div.container > p {
+    background-color: deeppink;
+}
+div + p {
+    font-size: 36px;
+}
+div ~ p {
+    text-decoration: underline;
+} */
+
+div p {
+    display: none;
+    background-color: aquamarine;
+}
+
+div:hover section p {
+    color: red;
+    display: block;
+}

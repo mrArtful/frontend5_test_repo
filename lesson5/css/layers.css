@@ -1,0 +1,57 @@
+.one {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: dodgerblue;
+    z-index: 1;
+}
+
+.two {
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    background-color: rgba(255, 140, 0, 100%);
+}
+
+.three {
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color: deeppink;
+    z-index: -1;
+}
+
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.box-1 {
+    overflow: visible;
+}
+
+.box-2 {
+    overflow: scroll;
+}
+
+.box-3 {
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+}
+
+.box-4 {
+    overflow-y: scroll;
+}
+
+.box-5 {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.box-6 {
+    white-space: nowrap;
+    overflow: auto;
+}

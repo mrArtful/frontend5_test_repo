@@ -1,0 +1,51 @@
+html, body {
+    background-color: #3D3B30;
+    margin: 10px;
+}
+
+.container {
+    background-color: #4D5061;
+    padding: 15px;
+}
+
+.container > div {
+    padding: 15px;
+    text-align: center;
+    font-size: 200%;
+}
+
+.one {
+    background-color: #E7E247;
+}
+
+.two {
+    background-color: #E9EDDE;
+}
+
+.three {
+    background-color: lightgreen;
+}
+.four {
+    background-color: deeppink;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.one {
+    flex: 1 1 200px;
+    order: 2;
+}
+
+.two {
+    flex: 1 1 200px;
+    order: 0;
+}
+
+.three {
+    flex: 1 1 200px;
+    order: -1;
+}
